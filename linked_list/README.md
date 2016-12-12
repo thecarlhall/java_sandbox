@@ -8,6 +8,7 @@ The list should make available some way to traverse the data contained.
 * Finish the implementations of StringLinkedListImpl and StringLinkedNodeImpl.
   Each should implement an interface.  You will need to add any variables or
   methods necessary.
+* Add tests for removing nodes with an index that is out of bounds.
 * Get all tests passing.
 
 ## Setup
@@ -40,5 +41,7 @@ mvn clean compile
 
 ## References
 [Linked list reference](https://en.wikipedia.org/wiki/Linked_list)
+
 [Apache Maven](https://maven.apache.org/)
+
 [Maven Lifecycle Phases](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html)

@@ -28,7 +28,7 @@ public interface StringLinkedList {
      * @param index Position of the value to remove.  Is 0 based.
      * @return The value removed from the list.
      */
-    String remove(int index);
+    String remove(int index) throws IndexOutOfBoundsException;
 
     /**
      * Remove the first occurrence of a value from the list.  Subsequent values are left intact.  List order is
