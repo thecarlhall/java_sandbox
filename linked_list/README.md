@@ -11,6 +11,11 @@ The list should make available some way to traverse the data contained.
 * Add tests for removing nodes with an index that is out of bounds.
 * Get all tests passing.
 
+## Bonus
+* Change the linked list to store any object type not just strings.
+* Implement the `RemovableStringLinkedList` interface and get the tests passing
+  in `RemovableStringLinkedListTest`.
+
 ## Setup
 * Install Maven
 ```bash
