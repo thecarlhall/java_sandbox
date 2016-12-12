@@ -1,5 +1,8 @@
 package sandbox.linked_list;
 
+/**
+ * Implementation of {@link StringLinkedNode}.
+ */
 public class StringLinkedNodeImpl implements StringLinkedNode {
     public StringLinkedNodeImpl(String value) {
         // implement
