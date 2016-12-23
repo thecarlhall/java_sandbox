@@ -15,4 +15,16 @@ public class StringLinkedNodeImpl implements StringLinkedNode {
     public void setNext(StringLinkedNode next) {
         // implement
     }
+
+    public String getValue() {
+        return null;
+    }
+
+    public StringLinkedNode getNext() {
+        return null;
+    }
+
+    public boolean hasNext() {
+        return false;
+    }
 }
