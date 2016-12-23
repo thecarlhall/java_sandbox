@@ -28,9 +28,20 @@ public interface StringLinkedList {
      */
     void clear();
 
+    /**
+     * Move the internal pointer to the first node in the list.
+     */
     void resetPointer();
 
+    /**
+     * Get the next String in the list.
+     *
+     * @return {@link String} or {@code null}.
+     */
     String next();
 
+    /**
+     * @return true if there is a next node.  false otherwise.
+     */
     boolean hasNext();
 }
